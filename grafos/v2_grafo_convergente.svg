@@ -1,0 +1,48 @@
+<svg width="680" height="360" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Grafo de propagación de error en un levantamiento hidrográfico</title>
+<desc>Cuatro fuentes de incertidumbre independientes (GPS/RTK, sensor de movimiento, velocidad del sonido, marea) convergen en dos resultados finales: posición y profundidad, en vez de encadenarse linealmente.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5f5e5a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+
+<line x1="90" y1="116" x2="195" y2="230" stroke="#5f5e5a" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="90" y1="116" x2="485" y2="230" stroke="#5f5e5a" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="237.5" y1="116" x2="195" y2="230" stroke="#5f5e5a" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="237.5" y1="116" x2="485" y2="230" stroke="#5f5e5a" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="412.5" y1="116" x2="485" y2="230" stroke="#5f5e5a" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="550" y1="116" x2="485" y2="230" stroke="#5f5e5a" stroke-width="1" marker-end="url(#arrow)"/>
+
+<g>
+  <rect x="40" y="60" width="100" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="90" y="78" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#0C447C">GPS / RTK</text>
+  <text x="90" y="96" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#185FA5">Posición</text>
+</g>
+<g>
+  <rect x="150" y="60" width="175" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="237.5" y="78" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#0C447C">Movimiento (MRU)</text>
+  <text x="237.5" y="96" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#185FA5">Estático + dinámico</text>
+</g>
+<g>
+  <rect x="335" y="60" width="155" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="412.5" y="78" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#0C447C">Vel. del sonido</text>
+  <text x="412.5" y="96" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#185FA5">Perfil + cabeza</text>
+</g>
+<g>
+  <rect x="500" y="60" width="100" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+  <text x="550" y="78" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#0C447C">Marea</text>
+  <text x="550" y="96" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#185FA5">Mareógrafo</text>
+</g>
+
+<g>
+  <rect x="70" y="230" width="250" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="195" y="248" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#085041">Posición</text>
+  <text x="195" y="266" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#0F6E56">Incertidumbre horizontal</text>
+</g>
+<g>
+  <rect x="360" y="230" width="250" height="56" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+  <text x="485" y="248" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="14" font-weight="500" fill="#085041">Profundidad</text>
+  <text x="485" y="266" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="12" fill="#0F6E56">Incertidumbre vertical</text>
+</g>
+
+<text x="340" y="315" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#5f5e5a">Sincronización de tiempo conecta todos los sensores; el ángulo del haz degrada la precisión fuera del nadir</text>
+</svg>

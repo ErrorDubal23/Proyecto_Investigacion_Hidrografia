@@ -1,0 +1,13 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Entornos / dependencias
+node_modules/
+__pycache__/
+.venv/
+*.pyc
+
+# Archivos temporales de edicion
+*.tmp
+~$*
