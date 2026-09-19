@@ -1,0 +1,98 @@
+<svg width="980" height="600" viewBox="0 0 980 600" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>Árbol de problemas — trazabilidad en batimetría con embarcación</title>
+<desc>Cuatro causas (verificación manual, chequeos aislados, ausencia de log auditable, falta de verificación cruzada) convergen en el problema central (detección tardía de errores en la cadena de referencia), que a su vez produce tres efectos.</desc>
+
+<defs>
+  <marker id="arrowP" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#555555"/>
+  </marker>
+</defs>
+
+<rect x="0" y="0" width="980" height="600" fill="#ffffff"/>
+
+<!-- Row labels -->
+<text x="8" y="22" font-size="11" font-weight="bold" letter-spacing="1" fill="#8a5a12">EFECTOS</text>
+<text x="8" y="222" font-size="11" font-weight="bold" letter-spacing="1" fill="#a5301f">PROBLEMA CENTRAL</text>
+<text x="8" y="422" font-size="11" font-weight="bold" letter-spacing="1" fill="#37547d">CAUSAS</text>
+
+<!-- EFECTOS -->
+<g>
+  <rect x="40" y="30" width="290" height="90" rx="8" ry="8" fill="#fdf3e7" stroke="#c47f17" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12.5" fill="#1a1a1a">
+    <tspan x="185" y="52">El error genera consecuencias</tspan>
+    <tspan x="185" y="68">operativas y de responsabilidad</tspan>
+    <tspan x="185" y="84">profesional para cuando se</tspan>
+    <tspan x="185" y="100">detecta</tspan>
+  </text>
+
+  <rect x="350" y="30" width="290" height="90" rx="8" ry="8" fill="#fdf3e7" stroke="#c47f17" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12.5" fill="#1a1a1a">
+    <tspan x="495" y="60">La confirmación llega tarde y</tspan>
+    <tspan x="495" y="76">por canales externos (1.5</tspan>
+    <tspan x="495" y="92">semanas después)</tspan>
+  </text>
+
+  <rect x="660" y="30" width="290" height="90" rx="8" ry="8" fill="#fdf3e7" stroke="#c47f17" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12.5" fill="#1a1a1a">
+    <tspan x="805" y="60">No queda evidencia auditable</tspan>
+    <tspan x="805" y="76">de que los chequeos previos</tspan>
+    <tspan x="805" y="92">sí se ejecutaron correctamente</tspan>
+  </text>
+</g>
+
+<!-- Arrows: problema -> efectos -->
+<line x1="480" y1="230" x2="185" y2="120" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowP)"/>
+<line x1="480" y1="230" x2="495" y2="120" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowP)"/>
+<line x1="480" y1="230" x2="805" y2="120" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowP)"/>
+
+<!-- PROBLEMA CENTRAL -->
+<rect x="200" y="230" width="560" height="100" rx="10" ry="10" fill="#fde8e8" stroke="#c0392b" stroke-width="2"/>
+<text text-anchor="middle" font-size="13.5" font-weight="600" fill="#1a1a1a">
+  <tspan x="480" y="268">En los levantamientos batimétricos con embarcación,</tspan>
+  <tspan x="480" y="286">los errores en la cadena de referencia geodésica</tspan>
+  <tspan x="480" y="304">y vertical no se detectan de forma oportuna.</tspan>
+</text>
+
+<!-- Arrows: causas -> problema -->
+<line x1="120" y1="430" x2="480" y2="330" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowP)"/>
+<line x1="360" y1="430" x2="480" y2="330" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowP)"/>
+<line x1="600" y1="430" x2="480" y2="330" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowP)"/>
+<line x1="840" y1="430" x2="480" y2="330" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowP)"/>
+
+<!-- CAUSAS -->
+<g>
+  <rect x="10" y="430" width="220" height="90" rx="8" ry="8" fill="#eef2f7" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12" fill="#1a1a1a">
+    <tspan x="120" y="452">La verificación de la cadena se</tspan>
+    <tspan x="120" y="468">hace de forma manual, dependiendo</tspan>
+    <tspan x="120" y="484">del criterio y disciplina de cada</tspan>
+    <tspan x="120" y="500">profesional</tspan>
+  </text>
+
+  <rect x="250" y="430" width="220" height="90" rx="8" ry="8" fill="#eef2f7" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12" fill="#1a1a1a">
+    <tspan x="360" y="452">Los sistemas de navegación/</tspan>
+    <tspan x="360" y="468">adquisición habituales (IPAC)</tspan>
+    <tspan x="360" y="484">solo verifican partes aisladas</tspan>
+    <tspan x="360" y="500">de la cadena</tspan>
+  </text>
+
+  <rect x="490" y="430" width="220" height="90" rx="8" ry="8" fill="#eef2f7" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12" fill="#1a1a1a">
+    <tspan x="600" y="452">No existe un mecanismo que</tspan>
+    <tspan x="600" y="468">registre de forma auditable si</tspan>
+    <tspan x="600" y="484">cada chequeo se ejecutó y cumplió</tspan>
+    <tspan x="600" y="500">su tolerancia</tspan>
+  </text>
+
+  <rect x="730" y="430" width="220" height="90" rx="8" ry="8" fill="#eef2f7" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12" fill="#1a1a1a">
+    <tspan x="840" y="452">Cuando coexisten fuentes de</tspan>
+    <tspan x="840" y="468">referencia independientes, no</tspan>
+    <tspan x="840" y="484">hay verificación cruzada entre</tspan>
+    <tspan x="840" y="500">ellas durante la operación</tspan>
+  </text>
+</g>
+
+<text x="490" y="580" text-anchor="middle" font-size="10.5" fill="#666666">planteamiento/v3_arbol_delimitado.md — árbol de problemas (2026-09-12)</text>
+</svg>

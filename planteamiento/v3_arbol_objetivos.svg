@@ -1,0 +1,94 @@
+<svg width="980" height="600" viewBox="0 0 980 600" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Helvetica, Arial, sans-serif">
+<title>Árbol de objetivos — trazabilidad en batimetría con embarcación</title>
+<desc>Espejo positivo del árbol de problemas: un bloque de actividades produce cuatro componentes del sistema, que a su vez logran el propósito (detección oportuna) y contribuyen al fin (confiabilidad y trazabilidad de datos batimétricos).</desc>
+
+<defs>
+  <marker id="arrowO" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#555555"/>
+  </marker>
+</defs>
+
+<rect x="0" y="0" width="980" height="600" fill="#ffffff"/>
+
+<!-- Row labels -->
+<text x="8" y="14" font-size="11" font-weight="bold" letter-spacing="1" fill="#1e8449">FIN</text>
+<text x="8" y="184" font-size="11" font-weight="bold" letter-spacing="1" fill="#1e8449">PROPÓSITO</text>
+<text x="8" y="334" font-size="11" font-weight="bold" letter-spacing="1" fill="#37547d">COMPONENTES</text>
+<text x="8" y="484" font-size="11" font-weight="bold" letter-spacing="1" fill="#6c3483">ACTIVIDADES</text>
+
+<!-- FIN -->
+<rect x="130" y="20" width="700" height="110" rx="10" ry="10" fill="#eafaf1" stroke="#1e8449" stroke-width="2"/>
+<text text-anchor="middle" font-size="13" font-weight="600" fill="#1a1a1a">
+  <tspan x="480" y="46">Contribuir a la confiabilidad y trazabilidad de</tspan>
+  <tspan x="480" y="63">los datos batimétricos entregados en proyectos de</tspan>
+  <tspan x="480" y="80">dragado y mantenimiento de canal/muelle en el Caribe</tspan>
+  <tspan x="480" y="97">colombiano, en línea con el marco regulatorio DIMAR</tspan>
+  <tspan x="480" y="114">(Resolución 0123-2022).</tspan>
+</text>
+
+<!-- Arrow: propósito -> fin -->
+<line x1="480" y1="190" x2="480" y2="130" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowO)"/>
+
+<!-- PROPÓSITO -->
+<rect x="200" y="190" width="560" height="90" rx="10" ry="10" fill="#eafaf1" stroke="#27ae60" stroke-width="2"/>
+<text text-anchor="middle" font-size="13.5" font-weight="600" fill="#1a1a1a">
+  <tspan x="480" y="222">En los levantamientos batimétricos con embarcación,</tspan>
+  <tspan x="480" y="240">los errores en la cadena de referencia geodésica y</tspan>
+  <tspan x="480" y="258">vertical se detectan de forma oportuna.</tspan>
+</text>
+
+<!-- Arrows: componentes -> propósito -->
+<line x1="120" y1="340" x2="480" y2="280" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowO)"/>
+<line x1="360" y1="340" x2="480" y2="280" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowO)"/>
+<line x1="600" y1="340" x2="480" y2="280" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowO)"/>
+<line x1="840" y1="340" x2="480" y2="280" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowO)"/>
+
+<!-- COMPONENTES -->
+<g>
+  <rect x="10" y="340" width="220" height="90" rx="8" ry="8" fill="#eef2f7" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12" fill="#1a1a1a">
+    <tspan x="120" y="362">La ejecución de cada chequeo de</tspan>
+    <tspan x="120" y="378">la cadena queda estandarizada y</tspan>
+    <tspan x="120" y="394">documentada mediante un checklist</tspan>
+    <tspan x="120" y="410">digital</tspan>
+  </text>
+
+  <rect x="250" y="340" width="220" height="90" rx="8" ry="8" fill="#eef2f7" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12" fill="#1a1a1a">
+    <tspan x="360" y="370">El sistema integra el registro</tspan>
+    <tspan x="360" y="386">de la cadena completa, no solo</tspan>
+    <tspan x="360" y="402">partes aisladas</tspan>
+  </text>
+
+  <rect x="490" y="340" width="220" height="90" rx="8" ry="8" fill="#eef2f7" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12" fill="#1a1a1a">
+    <tspan x="600" y="370">Cada chequeo queda registrado en</tspan>
+    <tspan x="600" y="386">un log auditable, verificado</tspan>
+    <tspan x="600" y="402">contra su tolerancia esperada</tspan>
+  </text>
+
+  <rect x="730" y="340" width="220" height="90" rx="8" ry="8" fill="#eef2f7" stroke="#4a6fa5" stroke-width="1.5"/>
+  <text text-anchor="middle" font-size="12" fill="#1a1a1a">
+    <tspan x="840" y="362">El sistema habilita la</tspan>
+    <tspan x="840" y="378">verificación cruzada entre fuentes</tspan>
+    <tspan x="840" y="394">de referencia independientes</tspan>
+    <tspan x="840" y="410">cuando coexisten</tspan>
+  </text>
+</g>
+
+<!-- Arrows: actividades -> componentes -->
+<line x1="480" y1="490" x2="120" y2="430" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowO)"/>
+<line x1="480" y1="490" x2="360" y2="430" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowO)"/>
+<line x1="480" y1="490" x2="600" y2="430" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowO)"/>
+<line x1="480" y1="490" x2="840" y2="430" stroke="#555555" stroke-width="1.5" marker-end="url(#arrowO)"/>
+
+<!-- ACTIVIDADES -->
+<rect x="130" y="490" width="700" height="90" rx="8" ry="8" fill="#f5eef8" stroke="#7d3c98" stroke-width="1.5"/>
+<text text-anchor="middle" font-size="12.5" fill="#1a1a1a">
+  <tspan x="480" y="512">Caracterizar el checklist con el asesor de dominio</tspan>
+  <tspan x="480" y="528">Diseñar el modelo de trazabilidad</tspan>
+  <tspan x="480" y="544">Desarrollar el prototipo</tspan>
+  <tspan x="480" y="560">Validarlo con el caso ancla</tspan>
+</text>
+
+</svg>

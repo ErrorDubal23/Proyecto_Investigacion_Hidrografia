@@ -4,7 +4,7 @@ Repositorio de investigación del Semillero de Investigación — Universidad de
 Programa: Ingeniería de Sistemas · Tutor: Prof. Marlon Alberto Piñeres Melo · Asesor de dominio: Sebastien Jean Lucien Honda (Ing. Hidrógrafo Senior).
 
 ## Estado actual
-- **Fase:** delimitación del alcance (ver `bitacora/decisiones.md`)
+- **Fase:** delimitación del alcance (ver `bitacora/decisiones.md` [[bitacora/decisiones]])
 - **Alcance vigente:** levantamientos batimétricos con embarcación (dragado, mantenimiento de canal/muelle). Estructuras fijas de alta precisión (ej. cimentaciones offshore) quedan fuera de esta fase — ver justificación en la bitácora.
 
 ## Estructura del repositorio
@@ -22,6 +22,11 @@ Programa: Ingeniería de Sistemas · Tutor: Prof. Marlon Alberto Piñeres Melo �
 │   ├── v1_cadena_lineal.md     # primera hipótesis (cadena lineal) — por qué se abandonó
 │   ├── v2_grafo_convergente.svg
 │   └── CHANGELOG.md            # qué cambió de una versión a otra y qué la motivó
+├── planteamiento/               # versiones del planteamiento del problema y la pregunta
+│   ├── v1_sistema_inteligente_ml.md/.pdf  # borrador pre-tutor — por qué se abandonó
+│   ├── v2_trazabilidad_tutor.md            # post-reunión con el tutor
+│   ├── v3_arbol_delimitado.md              # árbol de problemas/objetivos vigente
+│   └── CHANGELOG.md                        # qué cambió de una versión a otra y qué la motivó
 ├── prototipo/                   # código del sistema (cuando empiece a existir)
 │   ├── src/
 │   └── README.md                # cómo correrlo, qué hace y qué NO hace todavía
@@ -39,11 +44,16 @@ Programa: Ingeniería de Sistemas · Tutor: Prof. Marlon Alberto Piñeres Melo �
 
 ## Convenciones que te van a ahorrar dolor después
 
-**Grafos (`grafos/`)**: nunca borres una versión anterior, ni la sobrescribas. Cada cambio de modelo (como cuando pasamos de "cadena lineal" a "grafo convergente") es un archivo nuevo, numerado. El `CHANGELOG.md` explica en 2-3 líneas qué cambió y qué observación lo motivó — eso es, literalmente, el argumento metodológico de tu tesis ya medio escrito.
+**Grafos (`grafos/`)**: nunca borres una versión anterior, ni la sobrescribas. Cada cambio de modelo (como cuando pasamos de "cadena lineal" a "grafo convergente") es un archivo nuevo, numerado. El `CHANGELOG.md` [[grafos/CHANGELOG]] explica en 2-3 líneas qué cambió y qué observación lo motivó — eso es, literalmente, el argumento metodológico de tu tesis ya medio escrito.
 
-**Referencias descartadas (`referencias/descartadas.md`)**: esto es más valioso de lo que parece. Cuando llegues a escribir el estado del arte, la pregunta "¿por qué no usaste tal enfoque?" es de las más comunes en sustentaciones — y ya la vas a tener contestada.
+**Planteamiento (`planteamiento/`)** [[planteamiento/CHANGELOG]]: misma
+lógica que `grafos/` — el planteamiento del problema y la pregunta de
+investigación también evolucionan por versiones numeradas, nunca se
+sobrescriben.
 
-**Bitácora de decisiones (`bitacora/decisiones.md`)**: un formato simple por entrada funciona mejor que prosa larga:
+**Referencias descartadas (`referencias/descartadas.md`** [[referencias/descartadas]]**)**: esto es más valioso de lo que parece. Cuando llegues a escribir el estado del arte, la pregunta "¿por qué no usaste tal enfoque?" es de las más comunes en sustentaciones — y ya la vas a tener contestada.
+
+**Bitácora de decisiones (`bitacora/decisiones.md`** [[bitacora/decisiones]]**)**: un formato simple por entrada funciona mejor que prosa larga:
 
 ```markdown
 ## [2026-09-05] Delimitar a batimetría con embarcación
@@ -61,5 +71,5 @@ angular) duplicarían el trabajo de modelado sin caber en un semestre.
 **Pendiente:** validar este recorte con el profesor Piñeres Melo.
 ```
 
-**Entrevistas (`bitacora/entrevistas/`)**: guarda las transcripciones tal cual (como las que ya tienes), sin editar. Si luego quieres citarlas en un documento formal, cítalas desde ahí — mantener la fuente cruda intacta es buena práctica de investigación cualitativa.
+**Entrevistas (`bitacora/entrevistas/`** [[bitacora/entrevistas/README]]**)**: guarda las transcripciones tal cual (como las que ya tienes), sin editar. Si luego quieres citarlas en un documento formal, cítalas desde ahí — mantener la fuente cruda intacta es buena práctica de investigación cualitativa.
 

@@ -14,6 +14,6 @@ toda la documentación previa.
 ## Qué NO hace (todavía)
 
 - No calcula el error propagado total (TPU) — ver decisión en
-  `bitacora/decisiones.md` (2026-09-05).
+  `bitacora/decisiones.md` [[bitacora/decisiones]] (2026-09-05).
 - No cubre estructuras fijas de alta precisión (ej. cimentaciones offshore)
   — fuera del alcance de esta fase.

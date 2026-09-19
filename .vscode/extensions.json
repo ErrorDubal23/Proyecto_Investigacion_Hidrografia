@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "foam.foam",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+    "bierner.markdown-mermaid"
+  ]
+}

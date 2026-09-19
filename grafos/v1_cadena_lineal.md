@@ -17,7 +17,8 @@ El asesor de dominio aclaró explícitamente que el resultado final (posición
 y profundidad) depende de **varios sensores independientes actuando en
 paralelo** — GPS, sensor de movimiento, velocidad del sonido, sincronización
 de tiempo — no de un encadenamiento secuencial de un solo camino. Ver
-`v2_grafo_convergente.svg` y `CHANGELOG.md` para el modelo vigente.
+`v2_grafo_convergente.svg` [[grafos/v2_grafo_convergente]] y `CHANGELOG.md`
+[[grafos/CHANGELOG]] para el modelo vigente.
 
 Se conserva este documento como registro del proceso de investigación, no
 como modelo válido.

@@ -20,6 +20,40 @@ Formato sugerido por entrada:
 
 ---
 
+## [2026-09-12] Formalizar árbol de problemas/objetivos y cerrar la pregunta de investigación
+
+**Contexto:** al aplicar la metodología de árbol de problemas / Matriz de
+Marco Lógico vista en el semillero (Sesión 1,
+[[formacion/clases_semillero]]) sobre el planteamiento ya trabajado con el
+tutor [[planteamiento/v2_trazabilidad_tutor]], se notó que ese documento
+todavía violaba su propia regla de "problema bien planteado": mencionaba
+estructuras offshore ya excluidas del alcance (decisión del 2026-09-05,
+abajo), y su objetivo específico 2 pedía "diseñar un modelo de cálculo de
+error propagado" — es decir, TPU, que la decisión de ese mismo día ya
+había descartado como aporte propio.
+
+**Decisión:** se construye [[planteamiento/v3_arbol_delimitado]] con el
+árbol de problemas, el árbol de objetivos, y una pregunta de investigación
+que retira explícitamente la cláusula de cálculo de error propagado y
+queda acotada a batimetría con embarcación. Esta es la versión vigente
+para presentar al tutor.
+
+**Alternativas consideradas:** dejar la pregunta de v2 como está y
+resolver la inconsistencia con el cálculo de TPU más adelante, en la
+ejecución.
+
+**Por qué se descartó:** llevar al tutor una pregunta que contradice una
+decisión ya tomada genera confusión evitable y arriesga que la reunión se
+gaste re-discutiendo algo ya cerrado, en vez de avanzar.
+
+**Pendiente:** validar v3 con el tutor; actualizar
+`entregables/Planteamiento_Problema_Investigacion.docx` una vez validado;
+conseguir del asesor de dominio las hojas de especificación de los equipos
+del caso Indonesia — sin eso, el objetivo específico 4 (validación
+retrospectiva) no tiene con qué ejecutarse más allá del relato narrado.
+
+---
+
 ## [2026-09-05] Delimitar el alcance a batimetría con embarcación
 
 **Contexto:** el checklist de verificación y los instrumentos usados difieren
@@ -47,7 +81,7 @@ sin caber en el tiempo disponible de un semestre de semillero.
 **Contexto:** el modelo de "cadena de error" que describe el asesor de
 dominio coincide con el marco ya establecido de Total Propagated Uncertainty
 (TPU) del estándar IHO S-44, ya implementado en software comercial (CARIS
-HIPS/SIPS, NaviModel/EIVA).
+HIPS/SIPS, NaviModel/EIVA). [[referencias/usadas]]
 
 **Decisión:** el aporte de la investigación no es recalcular el TPU, sino
 construir la capa de verificación y trazabilidad (checklist digital + log
@@ -58,9 +92,10 @@ check, chequeo de marea, offsets) realmente se ejecutaron correctamente.
 error propagado desde cero.
 
 **Por qué se descartó:** duplicaría trabajo ya resuelto por herramientas
-comerciales establecidas, sin agregar valor real. El caso de Indonesia no
-falló por un error en el cálculo matemático, sino por falta de verificación
-de un supuesto de entrada (dos sistemas de marea sin cruzar).
+comerciales establecidas, sin agregar valor real. El caso de Indonesia
+[[evidencia/caso_indonesia]] no falló por un error en el cálculo matemático,
+sino por falta de verificación de un supuesto de entrada (dos sistemas de
+marea sin cruzar).
 
 **Pendiente:** ninguno por ahora — validar en la práctica al construir el
 primer prototipo del checklist.

@@ -18,7 +18,7 @@ multihaz depende de varios sensores en paralelo, no de un encadenamiento
 secuencial, y que además la precisión se degrada con el ángulo del haz
 (máxima en el nadir, peor hacia los lados de la franja).
 
-**Archivo:** `v2_grafo_convergente.svg`
+**Archivo:** `v2_grafo_convergente.svg` [[grafos/v2_grafo_convergente]]
 
 ---
 
@@ -32,4 +32,4 @@ verificación como una secuencia lineal: punto de referencia → GPS → offsets
 sobre el resultado final (ver v2). Se conserva como referencia histórica de
 cómo evolucionó el entendimiento del problema.
 
-**Archivo:** `v1_cadena_lineal.md`
+**Archivo:** `v1_cadena_lineal.md` [[grafos/v1_cadena_lineal]]
