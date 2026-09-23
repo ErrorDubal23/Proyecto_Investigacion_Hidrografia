@@ -43,23 +43,23 @@ Programa: Ingeniería de Sistemas · Tutor: Prof. Marlon Alberto Piñeres Melo �
 ├── entregables/                   # lo que se ha llevado formalmente al semillero
 │   ├── Ficha_Formulacion_Taller1_2.docx
 │   └── Planteamiento_Problema_Investigacion.docx / .md
-└── formacion/                      # tu propio proceso de aprendizaje
+└── formacion/                      # proceso de formación del semillero
     ├── clases_semillero.md         # notas de cada sesión (formulación, evaluación, control...)
     └── conceptos_clave.md          # glosario propio: TPU, TVU/THU, patch test, bar check, etc.
 ```
 
-## Convenciones que te van a ahorrar dolor después
+## Convenciones del repositorio
 
-**Grafos (`grafos/`)**: nunca borres una versión anterior, ni la sobrescribas. Cada cambio de modelo (como cuando pasamos de "cadena lineal" a "grafo convergente") es un archivo nuevo, numerado. El `CHANGELOG.md` [[grafos/CHANGELOG]] explica en 2-3 líneas qué cambió y qué observación lo motivó — eso es, literalmente, el argumento metodológico de tu tesis ya medio escrito.
+**Grafos (`grafos/`)**: no se borra ni se sobrescribe una versión anterior. Cada cambio de modelo (como el paso de "cadena lineal" a "grafo convergente") queda como un archivo nuevo, numerado. El `CHANGELOG.md` [[grafos/CHANGELOG]] explica en 2-3 líneas qué cambió y qué observación lo motivó — así queda documentada la evolución metodológica del proyecto.
 
 **Planteamiento (`planteamiento/`)** [[planteamiento/CHANGELOG]]: misma
 lógica que `grafos/` — el planteamiento del problema y la pregunta de
 investigación también evolucionan por versiones numeradas, nunca se
 sobrescriben.
 
-**Referencias descartadas (`referencias/descartadas.md`** [[referencias/descartadas]]**)**: esto es más valioso de lo que parece. Cuando llegues a escribir el estado del arte, la pregunta "¿por qué no usaste tal enfoque?" es de las más comunes en sustentaciones — y ya la vas a tener contestada.
+**Referencias descartadas (`referencias/descartadas.md`** [[referencias/descartadas]]**)**: documenta qué se investigó pero no se aplicó, y por qué. Sirve como respuesta ya preparada a la pregunta "¿por qué no se usó tal enfoque?", frecuente en sustentaciones.
 
-**Bitácora de decisiones (`bitacora/decisiones.md`** [[bitacora/decisiones]]**)**: un formato simple por entrada funciona mejor que prosa larga:
+**Bitácora de decisiones (`bitacora/decisiones.md`** [[bitacora/decisiones]]**)**: cada entrada sigue este formato:
 
 ```markdown
 ## [2026-09-05] Delimitar a batimetría con embarcación
@@ -77,5 +77,5 @@ angular) duplicarían el trabajo de modelado sin caber en un semestre.
 **Pendiente:** validar este recorte con el profesor Piñeres Melo.
 ```
 
-**Entrevistas (`bitacora/entrevistas/`** [[bitacora/entrevistas/README]]**)**: guarda las transcripciones tal cual (como las que ya tienes), sin editar. Si luego quieres citarlas en un documento formal, cítalas desde ahí — mantener la fuente cruda intacta es buena práctica de investigación cualitativa.
+**Entrevistas (`bitacora/entrevistas/`** [[bitacora/entrevistas/README]]**)**: las transcripciones se guardan tal cual, sin editar. Cualquier cita en un documento formal debe remitir a la fuente cruda aquí — es la práctica estándar en investigación cualitativa.
 
