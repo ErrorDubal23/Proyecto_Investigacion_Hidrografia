@@ -12,7 +12,7 @@ title: "Planteamiento del Problema de Investigación"
 | **Línea propuesta** | Trazabilidad y control de calidad de datos aplicado a hidrografía |
 | **Tutor propuesto** | Prof. Marlon Alberto Piñeres Melo |
 | **Asesor de dominio (externo)** | Sebastien Jean Lucien Honda — Ingeniero Hidrógrafo Senior |
-| **Versión** | v3 — árbol delimitado (2026-09-12), actualizado con validación cuantitativa del caso ancla (2026-09-14) |
+| **Versión** | v3 — árbol delimitado (2026-09-12), actualizado con validación cuantitativa del caso ancla (2026-09-14) y con datos de equipo/patch test/bar check (2026-09-19) |
 
 ## 1. Contexto
 
@@ -87,6 +87,19 @@ estándar, que simplemente no se cruzó ni se registró de forma auditable.
 *(Fuera de este vacío: el cálculo del error propagado esperado — TPU — ya
 está resuelto por el estándar IHO S-44 y por software comercial; no es un
 vacío que esta investigación deba llenar.)*
+
+**Nota — verificación independiente del vacío (2026-09-14):** lo anterior
+no se sostiene solo en el reporte del asesor de dominio. Se hizo una
+búsqueda de estado del arte sobre el software más cercano al problema
+(HydrOffice QC Tools, versión activa 4.10.5; qa4mbes) y sobre literatura
+reciente (*International Hydrographic Review*, dic. 2025). El resultado
+coincide con lo que reporta el asesor: ese software hace control de
+calidad **de los datos ya adquiridos** (detecta picos anómalos en la
+batimetría procesada, valida cumplimiento de especificación), no registra
+si un chequeo de la cadena (patch test, bar check, cruce de marea) se
+ejecutó durante la operación, ni compara fuentes de referencia
+independientes en tiempo real. Detalle completo de la búsqueda en
+`referencias/usadas.md` (repositorio del proyecto).
 
 ## 4. Alcance delimitado (fase 1)
 

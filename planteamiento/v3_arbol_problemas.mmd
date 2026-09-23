@@ -1,0 +1,25 @@
+flowchart BT
+  C1["Verificación manual y dependiente<br/>del criterio individual de cada profesional"]
+  C2["Sistemas de navegación (ej. IPAC)<br/>verifican solo partes aisladas de la cadena"]
+  C3["No existe registro auditable de si cada<br/>chequeo se ejecutó y cumplió su tolerancia"]
+  C4["Sin verificación cruzada entre fuentes<br/>de referencia independientes coexistentes"]
+  P["PROBLEMA CENTRAL<br/>Los errores en la cadena de referencia<br/>geodésica y vertical no se detectan<br/>de forma oportuna"]
+  E1["Consecuencias operativas y de<br/>responsabilidad profesional ya generadas<br/>para cuando se detecta el error"]
+  E2["Confirmación tardía y por canales externos<br/>(caso ancla: 1.5 semanas después,<br/>vía inconsistencias de volumen)"]
+  E3["No queda evidencia auditable de que los<br/>chequeos previos se ejecutaron correctamente"]
+
+  C1 --> P
+  C2 --> P
+  C3 --> P
+  C4 --> P
+  P --> E1
+  P --> E2
+  P --> E3
+
+  classDef causa fill:#E6F1FB,stroke:#185FA5,color:#0C447C,stroke-width:1.5px
+  classDef problema fill:#FBE1DE,stroke:#A5301F,color:#7A2416,stroke-width:3px,font-weight:bold
+  classDef efecto fill:#FDF3E7,stroke:#C47F17,color:#8A5A12,stroke-width:1.5px
+
+  class C1,C2,C3,C4 causa
+  class P problema
+  class E1,E2,E3 efecto

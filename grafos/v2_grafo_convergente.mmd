@@ -1,0 +1,20 @@
+flowchart LR
+  G["GPS / RTK<br/>Posición"]
+  M["Sensor de movimiento<br/>Roll / Pitch / Yaw"]
+  S["Velocidad del sonido<br/>(SVP)"]
+  T["Marea<br/>(reducción vertical)"]
+  POS(("Posición"))
+  PROF(("Profundidad"))
+
+  G --> POS
+  G --> PROF
+  M --> POS
+  M --> PROF
+  S --> PROF
+  T --> PROF
+
+  classDef fuente fill:#E6F1FB,stroke:#185FA5,color:#0C447C,stroke-width:1.5px
+  classDef resultado fill:#FBE1DE,stroke:#A5301F,color:#7A2416,stroke-width:2.5px,font-weight:bold
+
+  class G,M,S,T fuente
+  class POS,PROF resultado

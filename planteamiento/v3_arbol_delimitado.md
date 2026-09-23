@@ -26,7 +26,10 @@ Siguiendo la regla enseñada en Sesión 1: el problema central debe ser una
 ("falta un sistema de X" es un planteamiento mal formulado — ver
 diapositiva "Problema mal planteado vs. bien planteado").
 
-Versión gráfica: [`v3_arbol_problemas.svg`](v3_arbol_problemas.svg).
+Versión gráfica: [`v3_arbol_problemas.svg`](v3_arbol_problemas.svg)
+(regenerada 2026-09-19 con draw.io a partir de
+[`v3_arbol_problemas.mmd`](v3_arbol_problemas.mmd), formato Mermaid; el
+contenido es el mismo que el diagrama en texto de abajo).
 
 ```
 EFECTOS
@@ -60,7 +63,9 @@ CAUSAS
 
 ## Árbol de objetivos (espejo positivo)
 
-Versión gráfica: [`v3_arbol_objetivos.svg`](v3_arbol_objetivos.svg).
+Versión gráfica: [`v3_arbol_objetivos.svg`](v3_arbol_objetivos.svg)
+(regenerada 2026-09-19 con draw.io a partir de
+[`v3_arbol_objetivos.mmd`](v3_arbol_objetivos.mmd), formato Mermaid).
 
 ```
 FIN
@@ -193,6 +198,9 @@ el proyecto deja de ser viable en un año de semillero.
 - [ ] Decidir con el tutor si "chequeos adaptativos por tipo de proyecto"
   entra como objetivo específico 5 (ciclo de profundización) o se deja
   fuera del todo.
-- [ ] Actualizar formalmente `entregables/Planteamiento_Problema_Investigacion.docx`
-  una vez el tutor valide esta versión (retirar la cláusula de cálculo de
-  error propagado y la mención a estructuras offshore).
+- [x] Actualizar formalmente `entregables/Planteamiento_Problema_Investigacion.docx`
+  — hecho 2026-09-19, sincronizado con esta versión (retira la cláusula de
+  cálculo de error propagado y la mención a estructuras offshore, incluye
+  la validación cuantitativa y la nota de verificación independiente del
+  vacío). Sigue siendo una versión pre-validación del tutor; puede
+  necesitar un ajuste final después de la reunión.

@@ -1,9 +1,12 @@
 # v2 — Trazabilidad de la cadena de referencia (post-reunión con el tutor)
 
 Borrador escrito después de la primera reunión formal con el Prof. Marlon
-Alberto Piñeres Melo. Documento formal equivalente:
-[[entregables/Planteamiento_Problema_Investigacion]] (`.docx`, ya entregado
-al semillero).
+Alberto Piñeres Melo. **Superado por
+[[planteamiento/v3_arbol_delimitado]]** — el documento formal
+[[entregables/Planteamiento_Problema_Investigacion]] (`.docx`) refleja hoy
+la v3, no esta versión. Se conserva aquí solo como registro histórico de
+cómo evolucionó el planteamiento (ver "Qué quedó pendiente de ajustar en
+esta versión" abajo).
 
 ## Datos generales
 

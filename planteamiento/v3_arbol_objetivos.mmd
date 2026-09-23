@@ -1,0 +1,28 @@
+flowchart BT
+  A["ACTIVIDADES<br/>• Caracterizar el checklist con el asesor de dominio<br/>• Diseñar el modelo de trazabilidad<br/>• Desarrollar el prototipo<br/>• Validarlo con el caso ancla"]
+  K1["La ejecución de cada chequeo queda<br/>estandarizada y documentada<br/>mediante un checklist digital"]
+  K2["El sistema integra el registro de la<br/>cadena completa, no solo partes aisladas"]
+  K3["Cada chequeo queda registrado en un<br/>log auditable, verificado contra<br/>su tolerancia esperada"]
+  K4["El sistema habilita la verificación cruzada<br/>entre fuentes de referencia independientes<br/>cuando coexisten"]
+  PR["PROPÓSITO<br/>Los errores en la cadena de referencia<br/>geodésica y vertical se detectan<br/>de forma oportuna"]
+  F["FIN<br/>Contribuir a la confiabilidad y trazabilidad<br/>de los datos batimétricos en proyectos de<br/>dragado y mantenimiento de canal/muelle<br/>en el Caribe colombiano (Res. DIMAR 0123-2022)"]
+
+  A --> K1
+  A --> K2
+  A --> K3
+  A --> K4
+  K1 --> PR
+  K2 --> PR
+  K3 --> PR
+  K4 --> PR
+  PR --> F
+
+  classDef actividad fill:#F5F5F0,stroke:#6B6B5E,color:#3D3D33,stroke-width:1.5px
+  classDef componente fill:#E8F5E9,stroke:#2E7D32,color:#1B5E20,stroke-width:1.5px
+  classDef proposito fill:#E0F2F1,stroke:#00695C,color:#004D40,stroke-width:3px,font-weight:bold
+  classDef fin fill:#FFF8E1,stroke:#B8860B,color:#6B4E00,stroke-width:3px,font-weight:bold
+
+  class A actividad
+  class K1,K2,K3,K4 componente
+  class PR proposito
+  class F fin

@@ -18,7 +18,10 @@ multihaz depende de varios sensores en paralelo, no de un encadenamiento
 secuencial, y que además la precisión se degrada con el ángulo del haz
 (máxima en el nadir, peor hacia los lados de la franja).
 
-**Archivo:** `v2_grafo_convergente.svg` [[grafos/v2_grafo_convergente]]
+**Archivo:** `v2_grafo_convergente.svg` [[grafos/v2_grafo_convergente]] —
+regenerado 2026-09-19 con draw.io (a partir de `v2_grafo_convergente.mmd`,
+formato Mermaid) para mejorar la legibilidad visual; el contenido no
+cambió.
 
 ---
 

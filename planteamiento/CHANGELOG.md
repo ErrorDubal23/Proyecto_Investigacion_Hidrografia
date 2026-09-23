@@ -32,8 +32,9 @@ introdujo el caso de Indonesia como caso ancla formal.
 
 **Motivado por:** conversación con el tutor y con el asesor de dominio.
 
-**Archivo:** [[planteamiento/v2_trazabilidad_tutor]] (equivalente formal:
-[[entregables/Planteamiento_Problema_Investigacion]])
+**Archivo:** [[planteamiento/v2_trazabilidad_tutor]] — superado; el
+documento formal [[entregables/Planteamiento_Problema_Investigacion]]
+refleja hoy la v3, no esta versión.
 
 ---
 
