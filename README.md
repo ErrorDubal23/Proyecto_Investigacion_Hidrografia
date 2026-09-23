@@ -1,4 +1,4 @@
-# [Nombre del proyecto] — Trazabilidad en la cadena de referencia geodésica de levantamientos hidrográficos
+# Bitácora Geodésica — Trazabilidad en la cadena de referencia geodésica de levantamientos hidrográficos
 
 Repositorio de investigación del Semillero de Investigación — Universidad del Norte.
 Programa: Ingeniería de Sistemas · Tutor: Prof. Marlon Alberto Piñeres Melo · Asesor de dominio: Sebastien Jean Lucien Honda (Ing. Hidrógrafo Senior).
