@@ -192,9 +192,12 @@ el proyecto deja de ser viable en un año de semillero.
   equipos usados en el caso Indonesia — resuelto 2026-09-19: offsets,
   patch test y mecanismo del error de ~15 cm confirmados en
   [[bitacora/entrevistas/2026-09-19_confirmacion-offsets-patch-test-barcheck]].
-- [ ] Verificar los enlaces de antecedentes DIMAR/CIOH/INVEMAR antes de
-  citarlos formalmente (12 en [[planteamiento/v1_sistema_inteligente_ml]],
-  pendiente sin resolver).
+- [x] Verificar los enlaces de antecedentes DIMAR/CIOH/INVEMAR antes de
+  citarlos formalmente — hecho 2026-09-23, ver tabla de verificación en
+  [[planteamiento/v1_sistema_inteligente_ml]]. 10/12 confirmadas reales;
+  solo #1, #2 y #3 son realmente relevantes para el vacío de este
+  proyecto (la #3, Resolución DIMAR 0123-2022, es citable de inmediato);
+  #11 no se pudo verificar (sitio caído) y #12 es una cita débil.
 - [ ] Decidir con el tutor si "chequeos adaptativos por tipo de proyecto"
   entra como objetivo específico 5 (ciclo de profundización) o se deja
   fuera del todo.

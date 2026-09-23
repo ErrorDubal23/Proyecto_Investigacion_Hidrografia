@@ -125,3 +125,34 @@ sistemas compartían el mismo LAT del puerto por diseño, pero esa calibración
 compartida nunca se verificó cruzadamente durante la operación — justo el
 control que C-13 recomienda y que, en este caso, no se ejecutó ni quedó
 registrado.
+
+---
+
+## DIMAR, Resolución Número (0123-2022) MD-DIMAR-SUBDEMAR-GINSEM-ARINV (10 de febrero de 2022)
+
+**Verificada (2026-09-23), leyendo el PDF completo** (documento oficial con
+firma digital del Vicealmirante José Joaquín Amézquita García, Director
+General Marítimo). Modifica el REMAC 4 ("Actividades Marítimas") para
+adoptar el datum vertical del sector del Río Magdalena y de las aguas
+jurisdiccionales del Caribe y Pacífico colombiano, y fija las
+especificaciones técnicas obligatorias para levantamientos hidrográficos
+entregados a la Autoridad Marítima Nacional.
+
+Es la fuente normativa colombiana más directamente relevante para este
+proyecto: el Artículo 4.5.1.1.2 exige referenciar la posición a un marco
+geocéntrico basado en ITRF; el 4.5.1.1.3 exige un datum vertical compatible
+con la cartografía oficial (MLWS, LAT, o nivel de referencia geodésico); y
+el 4.5.1.1.4 detalla, para levantamientos con multihaz, qué debe entregarse
+como mínimo: datos brutos, características del sistema multihaz **y de sus
+sensores auxiliares** (equipo de posicionamiento, sensor de movimiento,
+rumbo), archivo de configuración de la nave con offsets entre dispositivos,
+y superficie de navegación editada. Esto es, en esencia, el mandato legal
+detrás del checklist que este proyecto busca hacer trazable —confirma que
+la caracterización de offsets/patch test/bar check no es un capricho
+metodológico del proyecto, sino un requisito ya exigido por la Autoridad
+Marítima Nacional para cualquier levantamiento entregado a DIMAR.
+
+Encontrada originalmente en una tabla de 12 antecedentes sin verificar de
+[[planteamiento/v1_sistema_inteligente_ml]] (búsqueda hecha con ChatGPT, no
+verificada manualmente); ver esa tabla para el resultado de verificar las
+12 fuentes, no solo esta.
